@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Valor de la UF en CLP para una fecha específica</h1>
+    <h1>Conversor UF a CLP para una fecha específica</h1>
     <label for="amount">Monto en UF:</label>
     <input type="number" v-model="amount" id="amount" step="0.01" min="0">
     <input type="date" v-model="selectedDate">
