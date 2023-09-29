@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:felipesagredo/Conversor_de_monedas/tree/main/client.git main:gh-pages
+git push -f git@github.com:<felipesagredo>/<Conversor_de_monedas>.git main:gh-pages
 
 cd -
