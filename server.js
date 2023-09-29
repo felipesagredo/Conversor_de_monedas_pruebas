@@ -6,7 +6,11 @@ const PORT = 3000;
 
 // Configuración de CORS
 app.use((req, res, next) => {
+<<<<<<< HEAD
   res.header('Access-Control-Allow-Origin', 'http://localhost:8081');
+=======
+  res.header('Access-Control-Allow-Origin', 'http://localhost:8080');
+>>>>>>> 05b3c296c9aa447acce242111c6f4f5483ca488d
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   next();
 });
