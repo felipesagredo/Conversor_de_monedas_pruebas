@@ -1,5 +1,7 @@
 # Conversor_de_monedas
 Aplicación que permite realizar conversión de una moneda de origen (UF) a una moneda de destino (CLP), para una determinada fecha.
+<span>![</span><span>Portada de Aplicacion Web, conversor de UF a CLP</span><span>]</span><span>(</span><span>https://raw.githubusercontent.com/felipesagredo/Conversor_de_monedas/blob/main/client/src/assets/portada.png</span><span>)</span>
+
 
 ## Pasos para instalar el proyecto:
 
