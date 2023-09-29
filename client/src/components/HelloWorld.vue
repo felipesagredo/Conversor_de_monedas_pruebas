@@ -16,7 +16,8 @@ import axios from 'axios';
 export default {
   data() {
     return {
-      ufValue: null
+      ufValue: null,
+      selectedDate: null
     };
   },
   computed: {
@@ -40,8 +41,8 @@ export default {
       const formattedDate = this.formatDate(this.selectedDate);
 
       try {
-        const response = await axios.get('http://localhost:3000/uf');
-        this.ufValue = response.data;
+        const response = await axios.get(`http://localhost:3000/uf/${formattedDate}`);
+        this.ufValue = response.data.serie[0];  // Obtener el primer elemento de la serie
       } catch (error) {
         console.error('Error al obtener el valor de la UF:', error);
       }
