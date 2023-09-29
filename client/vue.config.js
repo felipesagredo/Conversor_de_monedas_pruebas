@@ -5,6 +5,6 @@ module.exports = defineConfig({
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/Convertidor_de_monedas/'
+    ? '/Convertidor_de_monedas/client'
     : '/'
 }
