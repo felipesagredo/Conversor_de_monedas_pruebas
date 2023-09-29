@@ -6,7 +6,7 @@ const PORT = 3000;
 
 // Configuración de CORS
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'https://conversor-uf.netlify.app, http://localhost:8080');
+  res.header('Access-Control-Allow-Origin', 'https://conversor-uf.netlify.app');
   res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
   next();
 });
