@@ -2,7 +2,11 @@
   <div>
     <h1>Conversor UF a CLP para una fecha específica.</h1>
     <label for="amount">Monto en UF:</label>
+<<<<<<< HEAD
     <input type="number" v-model="amount" id="amount" step="0.01" min="0">
+=======
+    <input type="number" v-model="amount" id="amount" step="1" min="0">
+>>>>>>> e3315c36d3159f0354ed90f8e838d7aec6ca974c
     <input type="date" v-model="selectedDate">
     <button @click="getUFValue">Convertir UF a CLP</button>
     <p v-if="ufValue">Fecha: {{ formattedDate(ufValue.fecha) }}, Valor UF: ${{ ufValue.valor }}, Monto en CLP: ${{
