@@ -1,7 +1,10 @@
 # Conversor_de_monedas
 <<<<<<< HEAD
+<<<<<<< HEAD
 Crear una aplicación que permita realizar conversión de una moneda de origen (UF) a una moneda de destino (CLP), para una determinada fecha.
 =======
+=======
+>>>>>>> e3315c36d3159f0354ed90f8e838d7aec6ca974c
 Aplicación que permite realizar conversión de una moneda de origen (UF) a una moneda de destino (CLP), para una determinada fecha.
 https://conversor-uf.netlify.app/
 
@@ -21,4 +24,7 @@ En la carpeta raiz (Conversor_de_monedas)
 ##### node server.js
 
 Con estos simples pasos deberás tener la aplicacion instalada correctamente. Presta atención al puerto cuando ejecutes 'npm run serve' ya que suele cambiar de localhost:8080 a 8081.
+<<<<<<< HEAD
 >>>>>>> 8a637ae (Update README.md)
+=======
+>>>>>>> e3315c36d3159f0354ed90f8e838d7aec6ca974c
