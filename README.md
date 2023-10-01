@@ -10,10 +10,9 @@ Despues de clonar realizar lo siguiente.
 
 ##### npm install
 
-En la carpeta raiz (Conversor_de_monedas):
-##### npm install -g @vue/cli
-
 En la carpeta /client
+
+##### npm install
 ##### npm run serve
 
 En la carpeta raiz (Conversor_de_monedas)
